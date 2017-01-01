@@ -1,5 +1,5 @@
-port: /dev/dashgo
-baud: 115200
+port: /dev/ttyACM0
+baud: 57600
 timeout: 0.1
 rate: 50
 sensorstate_rate: 10

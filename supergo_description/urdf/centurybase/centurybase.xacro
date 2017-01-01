@@ -8,9 +8,9 @@
    <property name="torso_offset_z" value="0.23" /> <!--base_height/2+torso_height/2 -->
 
    <!-- Include all component files -->
-   <xacro:include filename="$(find supergo_description)/urdf/dashgobase/materials.urdf.xacro" />
-   <xacro:include filename="$(find supergo_description)/urdf/dashgobase/base.urdf.xacro" />
-   <xacro:include filename="$(find supergo_description)/urdf/dashgobase/torso.urdf.xacro" />
+   <xacro:include filename="$(find supergo_description)/urdf/centurybase/materials.urdf.xacro" />
+   <xacro:include filename="$(find supergo_description)/urdf/centurybase/base.urdf.xacro" />
+   <xacro:include filename="$(find supergo_description)/urdf/centurybase/torso.urdf.xacro" />
    
    <!-- Add the base and wheels -->
    <base name="base" color="Black"/>

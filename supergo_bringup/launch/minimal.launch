@@ -1,5 +1,5 @@
 <launch>
-   <node name="arduino" pkg="dashgo_bringup" type="dashgo_driver.py" output="screen">
-      <rosparam file="$(find dashgo_bringup)/config/my_dashgo_params.yaml" command="load" />
+   <node name="arduino" pkg="supergo_bringup" type="dashgo_driver.py" output="screen">
+      <rosparam file="$(find supergo_bringup)/config/my_supergo_params.yaml" command="load" />
    </node>
 </launch>
