@@ -3,12 +3,12 @@
 <robot name="base" xmlns:xacro="http://ros.org/wiki/xacro">
 
   <!-- Define a number of dimensions using properties -->
-  <property name="base_length" value="0.165" />
-  <property name="base_radius" value="0.06" />
+  <property name="base_length" value="0.07" />
+  <property name="base_radius" value="0.14" />
   <property name="wheel_length" value="0.02" />
-  <property name="wheel_radius" value="0.033" />
-  <property name="wheel_offset_x" value="0" />
-  <property name="wheel_offset_y" value="0.17" />
+  <property name="wheel_radius" value="0.066" />
+  <property name="wheel_offset_x" value="0.0" />
+  <property name="wheel_offset_y" value="0.1125" />
   <property name="wheel_offset_z" value="-0.038" />
   
   <property name="PI" value="3.1415926" />

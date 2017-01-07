@@ -5,7 +5,7 @@
     <rosparam file="$(find supergo_nav)/config/supergo/costmap_common_params.yaml" command="load" ns="local_costmap" />
     <rosparam file="$(find supergo_nav)/config/supergo/local_costmap_params.yaml" command="load" />
     <rosparam file="$(find supergo_nav)/config/supergo/global_costmap_params.yaml" command="load" />
-    <rosparam command="load" file="$(find supergo_nav)/config/supergo/dwa_local_planner_params.yaml"/>
+    <rosparam command="load" file="$(find supergo_nav)/config/supergo/teb_local_planner_params.yaml"/>
 <!--
     <rosparam file="$(find supergo_nav)/config/supergo/base_local_planner_params.yaml" command="load" />
 
