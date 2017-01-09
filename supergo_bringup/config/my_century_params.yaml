@@ -12,9 +12,9 @@ base_controller_rate: 10
 base_frame: base_footprint
 
 # === Robot drivetrain parameters
-wheel_diameter: 0.17
-wheel_track: 0.36
-encoder_resolution: 1716 # from Pololu for 13*34*4 motors 78 * 11 * 2
+wheel_diameter: 0.0882
+wheel_track: 0.374
+encoder_resolution: 300 # from Pololu for 13*34*4 motors 78 * 11 * 2
 gear_reduction: 1.0
 motors_reversed: False
 
