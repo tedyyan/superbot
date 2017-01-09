@@ -1,0 +1,5 @@
+<launch>
+   <node name="arduino" pkg="supergo_bringup" type="dashgo_driver.py" output="screen">
+      <rosparam file="$(find supergo_bringup)/config/my_century_params.yaml" command="load" />
+   </node>
+</launch>
